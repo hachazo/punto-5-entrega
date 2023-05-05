@@ -1,4 +1,4 @@
-with Ada.Integer_Text_Io,Ada.Text_Io,arbol; use Ada.Integer_Text_Io,Ada.Text_Io;
+with Ada.Integer_Text_Io,Ada.Text_Io,Arbol_Grupo7; use Ada.Integer_Text_Io,Ada.Text_Io;
 
 procedure Pco5_Ej7_Grupo7 is
 
@@ -8,7 +8,7 @@ procedure Pco5_Ej7_Grupo7 is
       put(x);
       end temp;
    
-   package Arbolinc is new Arbol(Integer,"<", ">",temp);
+   package Arbolinc is new Arbol_Grupo7(Integer,"<", ">",temp);
    use Arbolinc;
    arbol:tipoarbol;
 
