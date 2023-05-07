@@ -23,7 +23,8 @@ begin
     Insertar(Arbol, 1);
     Insertar(Arbol, 3);
     Insertar(Arbol, 6);
-    Insertar(Arbol, 9);
+   Insertar(Arbol, 9);
+   Insertar(Arbol,8);
       
       if Esta(Arbol, 9) then
         Put_Line("El elemento 9 está en el árbol.");
